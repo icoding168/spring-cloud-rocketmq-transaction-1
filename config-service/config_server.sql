@@ -16,8 +16,8 @@ CREATE TABLE `config_server` (
 
 INSERT INTO `config_server` (`id`, `akey`, `avalue`, `application`, `aprofile`, `label`)
 VALUES
-	(2,'name_server','ip（rocketmq服务器地址）','product-service','dev','dev'),
-	(3,'name_server','ip（rocketmq服务器地址）','order-service','dev','dev'),
+	(2,'name_server','127.0.0.1:9876','product-service','dev','dev'),
+	(3,'name_server','127.0.0.1:9876','order-service','dev','dev'),
 	(4,'order_topic','order_topic','order-service','dev','dev'),
 	(5,'order_topic','order_topic','product-service','dev','dev');
 
